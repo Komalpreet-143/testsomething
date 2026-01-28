@@ -42,5 +42,7 @@ public class TodoListTest {
         todoList.addTask("Old Title");
         todoList.updateTaskTitle(0, "New Title");
         assertEquals("New Title", todoList.getTasks().get(0).getTitle());
+
+        //comment added
     }
 }
