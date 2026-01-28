@@ -1,0 +1,28 @@
+package com.example.demo;
+
+public class TodoItem {
+
+    private String title;
+    private boolean completed;
+
+    public TodoItem(String title) {
+        this.title = title;
+        this.completed = false;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public boolean isCompleted() {
+        return completed;
+    }
+
+    public void markComplete() {
+        this.completed = true;
+    }
+}
